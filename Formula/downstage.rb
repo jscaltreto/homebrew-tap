@@ -1,30 +1,30 @@
 class Downstage < Formula
   desc "Plaintext markup language and tools for stage plays"
   homepage "https://github.com/jscaltreto/downstage"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.0/downstage_0.4.0_Darwin_x86_64.tar.gz"
-      sha256 "367b79fc5e806f931a4346194ba12cc587a270d0ea528f79a3cce6dabceb1ad9"
+      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.1/downstage_0.4.1_Darwin_x86_64.tar.gz"
+      sha256 "c6ab54ee351ac1b892c77c29d2d7235263e46bdee7f2381745f132831e237739"
     end
 
     on_arm do
-      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.0/downstage_0.4.0_Darwin_arm64.tar.gz"
-      sha256 "50556af6d2df3c9b4c162cf665dfa895cd1af29c5832b274d491dfb56d86f13c"
+      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.1/downstage_0.4.1_Darwin_arm64.tar.gz"
+      sha256 "061cc94f953873d00d44cdb8542fc42910d948db228daa0eba3549c064601332"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.0/downstage_0.4.0_Linux_x86_64.tar.gz"
-      sha256 "f1c3730b88e6ee65fed684539be2bccbae956433c0c316251b4989f7fe19fb38"
+      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.1/downstage_0.4.1_Linux_x86_64.tar.gz"
+      sha256 "d5b290789b694d312512d0872f52f39037e263630bca858e2b75c1610bb5e1e8"
     end
 
     on_arm do
-      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.0/downstage_0.4.0_Linux_arm64.tar.gz"
-      sha256 "bc8fab41db7874f3ab3769b6e1a5fad46313246cb796d760c06b9e311eee00b0"
+      url "https://github.com/jscaltreto/downstage/releases/download/v0.4.1/downstage_0.4.1_Linux_arm64.tar.gz"
+      sha256 "6a82338c9f6a51888f463482200ea354c154242fd4e3190123bda8130deae92a"
     end
   end
 
